@@ -5,5 +5,7 @@ date: 2019-05-24T10:42:18.973Z
 description: desc
 featuredpost: true
 featuredimage: /img/tutorials.png
+tags:
+  - 'c# Roslyn'
 ---
 with Roslyn
