@@ -1,5 +1,5 @@
 ---
-templateKey: 'games-page'
+templateKey: 'product-page'
 path: /games
 title: GamesTitle
 image: /img/jumbotron.jpg
