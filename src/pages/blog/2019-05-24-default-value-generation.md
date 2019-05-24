@@ -10,10 +10,7 @@ tags:
 ---
 with Roslyn
 
-\`\``csharp
-
+```csharp
 var s = "JavaScript syntax highlighting";
-
 alert(s);
-
-\`\``
+```
