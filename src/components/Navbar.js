@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/untitled.svg'
+import github from '../img/github-icon.svg'
+import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -36,8 +37,7 @@ const Navbar = class extends React.Component {
       <nav
         className="navbar is-transparent"
         role="navigation"
-            aria-label="main-navigation"
-            style={{ backgroundColor: '#46344E' }}
+        aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
@@ -59,8 +59,8 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-                    <div className="navbar-start has-text-centered">
-                        <Link className="navbar-item" to="/games" style={{ color:'#f5f5f5' }}>
+            <div className="navbar-start has-text-centered">
+              <Link className="navbar-item" to="/games">
                 Games
               </Link>
               <Link className="navbar-item" to="/tools">

@@ -1,0 +1,8 @@
+
+.navbar-item {
+    color: whitesmoke;
+}
+
+.navbar-item:hover {
+    color: #FAED25;
+}
